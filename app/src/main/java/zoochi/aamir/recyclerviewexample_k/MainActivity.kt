@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity(), ExampleAdapter.OnItemClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //amir
 
         val recycler_view: RecyclerView = findViewById(R.id.recycler_view)
         recycler_view.adapter = adapter
